@@ -1,0 +1,163 @@
+html {
+    background-color: #e5e5e5;
+}
+
+body {
+    display: block;
+    justify-content: center;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #fca311;
+    padding: 0 50px 20px 50px;
+    border: 5px solid #14213d;
+    border-radius: 20px;
+    height: 90vh;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #000000;
+    font-weight: 1000;
+    text-align: center;
+}
+
+
+.score-quarter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.score-quarter p {
+    height: 100px;
+    font-size: 70px;
+    text-align: center;
+}
+
+.show-fouls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fouls-el {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.show-fouls p {
+    width: 30px;
+    text-align: center;
+}
+
+
+
+.period-el {
+    margin-top: 50px;
+}
+
+.change-period {
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+
+}
+
+.change-period button {
+    background-color: #0077b6;
+    text-align: center;
+    width: 25%;
+    font-size: 15px;
+}
+
+p {
+    border: solid #000000 1px;
+    margin: 0 auto;
+    background-color: #e5e5e5;
+}
+
+h3, h4 {
+    color: #d62828;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 15px;
+    margin: 0;
+    justify-content: center;
+}
+
+
+
+.scores {
+    display: flex;
+    margin: 20px 50px;
+    justify-content: space-between;
+}
+
+.child-scores {
+    display: flex;
+    flex-direction: column;
+}
+
+.child-scores #increment-home-three,
+.child-scores #increment-away-three {
+    background-color: #588157;
+}
+
+
+.child-scores #increment-home-two,
+.child-scores #increment-away-two {
+    background-color: #a3b18a;
+}
+
+
+
+.fouls {
+    display: flex;
+    margin: 50px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.child-fouls {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.child-fouls #increment-home-fouls,
+.child-fouls #increment-away-fouls {
+    background-color: #d62828;
+}
+
+
+button {
+    border: solid black 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#reset-away-fouls,
+#reset-home-fouls {
+    background-color: #0077b6;
+}
